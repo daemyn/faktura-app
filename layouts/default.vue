@@ -70,6 +70,7 @@
 
 <script>
 export default {
+  middleware: 'is-logged',
   data () {
     return {
       clipped: false,

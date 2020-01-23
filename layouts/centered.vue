@@ -24,5 +24,6 @@
 
 <script>
 export default {
+  middleware: 'is-guest'
 }
 </script>
